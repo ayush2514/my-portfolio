@@ -216,6 +216,7 @@ nav.navbar .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
 }
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
 	background-color: #fff;
@@ -259,15 +260,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
+  font-size: 24px;
+  letter-spacing: 1px;
   line-height: 1.5em;
   width: 96%;
 }
+.no-underline {
+  text-decoration: none;
+
+}
+
+
 .banner button {
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
@@ -284,7 +291,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
